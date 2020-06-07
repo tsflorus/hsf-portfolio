@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Hugo Sigerlé-Florus`,
+    title: `Hugo Singerlé-Florus`,
     description: `Personal portfolio of designer Hugo Singerlé-Florus. Come and see my artworks & projects.`,
   },
   plugins: [
@@ -23,11 +23,12 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#ffffff`,
         display: `minimal-ui`,
-        icon: `src/images/hugo-sigerle-florus.png`, // This path is relative to the root of the site.
+        icon: `src/images/hugo-singerle-florus.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    `gatsby-plugin-postcss`,
   ],
 }
