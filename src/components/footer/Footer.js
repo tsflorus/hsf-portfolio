@@ -8,9 +8,7 @@ const Footer = () => (
       paddingTop: `2vh`,
     }}
   >
-   <div>
-    © {new Date().getFullYear()},{` `} Hugo Singerlé-Florus
-   </div>
+    <p>© {new Date().getFullYear()},{` `} Hugo Singerlé-Florus</p>
   </footer>
 )
 

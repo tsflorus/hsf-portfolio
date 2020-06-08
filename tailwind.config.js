@@ -3,8 +3,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: 'var(--primary)',
-        secondary: 'var(--secondary)',
+        customPrimary: 'var(--primary)',
+        customSecondary: 'var(--secondary)',
         'main-text': 'var(--text-main)',
         'secondary-text': 'var(--text-secondary)',
         'shadow': 'var(--shadow)',

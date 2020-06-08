@@ -86,7 +86,7 @@ export const LogoWrap = styled.div`
 `
 
 export const NavItem = styled(Link)`
-  text-decoration: none;
+  text-decoration: none !important;
   display: inline-block;
   white-space: nowrap;
   margin: 0 1vw;
@@ -96,6 +96,7 @@ export const NavItem = styled(Link)`
   font-size: 1.5rem;
   padding: 20px 0;
   z-index: 6;
+  color: var(--text-main);
 
   :after {
     position: absolute;

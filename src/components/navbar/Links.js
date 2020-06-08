@@ -15,8 +15,6 @@ const Links = () => {
     }
   };
   return (
-
-
     <>
       <NavItem to="/work">Work</NavItem>
       <NavItem to="/#contact">Contact</NavItem>
@@ -27,7 +25,7 @@ const Links = () => {
         icons={false}
       />
       <div style={{marginTop:`7vh`}}>
-        <a href="https://www.instagram.com/hsf_cardrawings/" rel="noreferrer" target="_blank"><FaInstagram style={{
+        <a href="https://www.instagram.com/hsf_cardrawings/" rel="noreferrer" target="_blank" style={{color:`var(--text-main)`}}><FaInstagram style={{
           fontSize: `30px`
         }} /></a>
       </div>

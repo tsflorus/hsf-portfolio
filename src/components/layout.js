@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import './layout.css';
@@ -11,7 +12,7 @@ const Layout = ({ children }) => {
     <div
       className={`${
         theme === 'light' ? 'theme-light' : 'theme-dark'
-      } bg-primary text-main-text transition-all duration-300  min-h-screen`}>
+      } bg-customPrimary text-main-text transition-all duration-300  min-h-screen`}>
       <Navbar />
       <div
           style={{
