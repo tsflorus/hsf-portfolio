@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import './layout.css';
 import { ThemeContext } from '../context/themeContext';
 import Navbar from './navbar/Navbar';
+import Footer from './footer/Footer'
 
 const Layout = ({ children }) => {
   const { theme } = useContext(ThemeContext);
@@ -20,11 +21,7 @@ const Layout = ({ children }) => {
         >
           <main>{children}</main>
         </div>
-      <footer className="text-secondary-text">
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer>
+      <Footer />
     </div>
   );
 };
