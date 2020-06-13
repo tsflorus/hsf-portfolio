@@ -35,15 +35,10 @@ fields:
       format: markdown
   label: Description
 - name: time_spent
-  type: number
-  label: Time spent
-  description: ''
-  default: 0
-  required: true
+  type: text
   config:
-    min: 
-    max: 
-    step: 
+    required: false
+  label: Time spent
 - name: tools_used
   type: tag_list
   default: []
